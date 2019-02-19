@@ -42,7 +42,7 @@ Find you initial  `script.js` file with your 'Hello, World' program and copy it 
 
 ## Quick introduction to git video
 
-<a href="https://www.youtube.com/embed/SWYqp7iY_Tc" target="_blank"><img src="https://www.youtube.com/embed/SWYqp7iY_Tc/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+<a href="https://www.youtube.com/embed/SWYqp7iY_Tc" target="_blank"><img src="https://img.youtube.com/vi/SWYqp7iY_Tc/0.jpg" 
+alt="Introduction to Git" width="240" height="180" border="10" /></a>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
