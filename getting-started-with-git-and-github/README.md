@@ -40,4 +40,8 @@ Find you initial  `script.js` file with your 'Hello, World' program and copy it 
 
 ### Congratulations, you successfully committed your first code to Github. You have now entered the world of professional development!
 
+## Quick introduction to git video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SWYqp7iY_Tc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
