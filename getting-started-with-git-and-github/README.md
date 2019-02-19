@@ -1,4 +1,4 @@
-# Git & JavaScript Basics -  [![alt text](https://icon-icons.com/icons2/936/PNG/32/download-to-storage-drive_icon-icons.com_73590.png "Download Lesson 1: Setting up Your Machine")]()
+# Git & JavaScript Basics -  [![alt text](https://icon-icons.com/icons2/936/PNG/32/download-to-storage-drive_icon-icons.com_73590.png "Download Lesson 1: Setting up Your Machine")](https://github.com/martensievers/Resource-Files/raw/master/Exercise%202%20-%20Introduction%20to%20Git%20%26%20GitHub.pdf)
 
 ## Downloads & Installation:
 
