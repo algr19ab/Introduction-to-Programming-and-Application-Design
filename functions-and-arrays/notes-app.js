@@ -1,7 +1,10 @@
 /**
-* Notes-App: Take notes like never before
-*/
-
+ * 1. Class for notes
+ * 2. Array of notes
+ * 3. Override
+ * 
+ * 
+ */
 
 // Initialize new array of notes
 var notes = [{
@@ -17,3 +20,22 @@ var notes = [{
     title: "Upgrade the Office",
     body: "Buy a new office chair"
 }]
+
+var reminder = [{
+    title: "Wash clothes"
+}, {
+    title: "Walk the dog"
+}]
+
+
+
+// Print notes to console
+function printNotes(arrayToPrint) {
+    for (let i = 0; i < arrayToPrint.length; i++) {
+        console.log(arrayToPrint[i].title)
+    }
+}
+
+printNotes(notes)
+printNotes(reminder)
+
