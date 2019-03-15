@@ -12,6 +12,6 @@ Try to build a registration form for your own exam project, including all the in
 
 4. Implement a redirect ot the newly created login page after the user has successfully registered on you site
 
-#### BONUS CHALLENGE (YOU ROCK)
+#### BONUS CHALLENGE
 
 Try to implement a functioning login on the login.html page with all the required .js files. Until now only make sure it works with the hardcoded user "Henrik Thorn", as we don't know how to save the newly registered user in localStorage yet.
