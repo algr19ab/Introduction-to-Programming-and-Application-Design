@@ -10,7 +10,7 @@ Try to build a registration form for your own exam project, including all the in
 
 3. If the input is not accepted, clear all fields in the form and display a message what the user has done wrong e.g. "Please choose a stronger password"
 
-4. Implement a redirect ot the newly created login page after the user has successfully registered on you site
+4. Implement a redirect ot the newly created login page after the user has successfully registered on your site
 
 #### BONUS CHALLENGE
 
