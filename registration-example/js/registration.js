@@ -21,6 +21,18 @@ const submitBtnUI = document.getElementById('submit-btn')
 submitBtnUI.onclick = function () {
 
     console.log('clicked')
+    console.log(users)
+
+    if(firstNameUI.value.length == 0) {
+        document.getElementById('resultSpan').innerHTML = 'Please provide username & password'
+        lastNameUI.value = ""
+        return false
+    }
+
+    if(passwordUI.value.length < 8) {
+        document.getElementById('resultSpan').innerText = "Password to short, please have at least 8 characters"
+        return false
+    }
 
     // If the user has agreed to the terms and conditions,
     // I create a new user object from his input
@@ -30,7 +42,25 @@ submitBtnUI.onclick = function () {
         var username = usernameUI.value
         var password = passwordUI.value
 
+        for(let i = 0; i < users.length; i++) {
+            //if(usernameUI.value === users[i].username) {
+                // Update the span to let the user know that he has to choose a different username
+                // return false
+            }
+        }
+
+
+
         // To store the user I add him to the array of users (DB)
         users.push(new User(firstName, lastName, username, password))
-    }
+        console.log(users)
+
+        // Redirect user to login page
+        //window.location.assign('./login.html')
 }
+
+    
+
+
+
+
