@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Gin Factory | Shop</title>
+</head>
+
+<body>
+
+    <h1 class="heading">The Finest Gin in Town</h1>
+
+    <div class="search">
+        <input type="text" id="search-text" placeholder="What are you looking for?" style="width: 300px; height: 40px;">
+        <select name="brand" style="height: 40px">
+            <option value="" disabled selected>Sort by</option>
+            <option value="volvo">Lowest Price</option>
+            <option value="saab">Highest Price</option>
+            <option value="fiat">Alphabetically</option>    
+        </select>
+    </div>
+
+    <button onclick="location.href = 'cart.html'">View Shopping Cart</button>
+
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Name:</th>
+                    <th>Brand:</th>
+                    <th>Price:</th>
+                    <th>Quantity:</th>
+                </tr>
+            </thead>
+            <tbody id="product-catalog">
+                    
+            </tbody>
+        </table>
+    </div>
+
+    <script src="../src/gin.js"></script>
+    <script src="../src/products.js"></script>
+    <script src="../src/views.js"></script>
+    <script src="./scripts/index.js"></script>
+</body>
+
+</html>
